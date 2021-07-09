@@ -1,0 +1,8 @@
+**How does the internet work? What happens when you click on a link? **
+
+From what I understood, the internet is a place where millions and billions of networks have been connected and webpages setup on the said networks.
+When a link is clicked on the browser, it goes through different request to get the requested website's IP address. It would go to the local DNS cache first, then local DNS, 
+then ISP DNS, until it goes to the root DNS. This process does not need to happen if at any point the IP Address has bee found inn any of the stops. 
+
+By that timme, it will then come back to the browser with the IP address, which will then send the IP address as a request to the server. 
+The server would load the requested IP address on the browser but what the user will see is the URL, which is the friendlier way for us humans to get to the unique address of the requested site. 
